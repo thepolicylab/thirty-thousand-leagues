@@ -1,0 +1,488 @@
+
+
+/*
+////////////////////////////////////////////////
+    the basics
+////////////////////////////////////////////////
+*/
+
+
+
+@font-face { font-family: Akzidenz; src: url('fonts/Akzidenz.otf'); } 
+
+body { 
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+    font-family: Akzidenz;
+}
+
+p { 
+  margin: 0 0 6px 0; 
+  color: #000;
+}
+
+a:link,
+a:visited {
+  color: #888;
+  text-decoration: underline;    
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #555;
+}
+		
+ul, ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}	
+
+/* break the defaults */
+h1, h2, h3, h4, h5, h6 { font-weight: normal; 
+						 font-size: 1em;
+						 padding: 0;
+						 margin: 0;
+						 color: #000; } 
+
+img a,
+a img {
+  border: none;
+}
+
+
+/*
+////////////////////////////////////////////////
+    moreso,
+////////////////////////////////////////////////
+*/
+
+h1 {
+  font-size: 15em;
+  line-height: 1em;
+  margin-top: 200px;
+  letter-spacing: -.04em;
+}
+
+#h {
+  letter-spacing: -.054em;  
+}
+
+h2 {
+  font-size:4em;
+  margin: 16px 0 28px 16px;
+  clear: left;
+  clear: right;
+}
+
+.case-study h2 {
+  max-width: 1200px;
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0 0 18px 0;
+  padding-right: 36px;
+}
+
+.case-study h3 {
+	padding: 48px 0 0 0;
+	margin-left: 16px;
+}
+
+h3 u {
+	margin-left: 16px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: normal;
+  margin-bottom: 6px;
+  padding-right: 36px;
+}
+
+.case-study p {
+  width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 1.3em;
+  line-height: 1.35em;
+  max-width: 840px;
+  padding: 0 0 14px 0;
+}
+
+.case-study p.caption {
+  font-size: 1em;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.intro {
+  width: 500px;
+  margin-bottom: 280px;
+  margin-left: 16px;
+}
+
+/*
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+*/
+
+.back {
+  float: left;
+  width: 1200px;
+  margin-bottom: 144px;
+}
+
+.section {
+	width: 33%;
+	max-width: 500px;
+	padding-right: 64px;
+	margin-left: 16px;
+	padding-bottom: 48px;
+}
+
+.image {
+	width: 66%;
+	float: right;
+	padding-bottom: 100px;
+}
+
+.case-study img,
+.case-study video {
+	width: 100%;
+	max-width: 1000px;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding-bottom: 18px;
+}
+
+.case-study video {
+	border: 1px #E0E0E0;
+}
+
+.case-study img.primary-image {
+	max-width: 800px;
+	padding-bottom: 8px;
+}
+
+.case-study hr {
+	margin-top: 24px;
+	margin-left: 16px;
+	margin-right: 16px;
+	max-width: 1000px;
+	margin-bottom: 16px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #E0E0E0;
+}
+
+.case-study hr.bottom {
+	margin-bottom: 56px;
+	margin-top: 8px;
+
+}
+
+.image.movietime {
+	padding-bottom: 200px;
+}
+
+.work-image {
+	height: auto;
+	width: 92%;
+	float: left;
+}
+
+video {
+	width: 92%;
+	height: auto;
+	float: left;
+} 
+
+
+
+.video {
+  float: left;
+  clear: none;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+
+body {
+	width: 100%;
+}
+
+
+h1 {
+  font-size: 8em;
+  line-height: 1em;
+  margin-top: 100px;
+  margin-left: 8px;
+  letter-spacing: normal;
+}
+
+.intro {
+  width: 96%;
+  margin: 0px 12px 40px 12px;
+}
+
+h2 {
+  font-size: 3em;
+  padding-top: 80px;
+  line-height: 1em;
+  width: 96%;
+  margin-left: 8px;
+ }
+
+h3 u {
+	margin-left: 8px;
+}
+
+.section {
+	width: 96%;
+	margin: 0 8px 0 8px;
+	max-width: 86%;
+
+}
+
+.image {
+	float: left;
+	width: 96%;
+	margin: 0 8px 0 8px;
+	padding-bottom: 32px;
+}
+
+.image.movietime {
+	padding-bottom: 20px;
+
+}
+
+.work-image {
+	width: 100%;
+	height: auto;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.case-study p {
+  width: 90%;
+  font-size: 1.3em;
+  line-height: 1.35em;
+  padding: 0 0 14px 0;
+}
+
+.case-study h2 {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 3.5em;
+  line-height: 1.1em;
+  width: 90%;
+  margin-left: 16px;
+}
+
+
+.case-study h3 {
+	padding-top: 32px;
+	width: 90%;
+}
+
+.case-study img,
+.case-study video {
+	width: 90%;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding-bottom: 18px;
+}
+
+.case-study img.primary-image {
+	max-width: 600px;
+	padding-bottom: 8px;
+}
+
+.case-study hr {
+	width: 90%;
+	margin-top: 24px;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #E0E0E0;
+}
+
+.case-study hr.bottom {
+	margin-bottom: 64px;
+	margin-top: 8px;
+
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 440px) {
+
+body {
+	width: 100%;
+}
+
+
+h1 {
+  font-size: 8em;
+  line-height: 1em;
+  margin-top: 100px;
+  margin-left: 8px;
+  letter-spacing: normal;
+}
+
+.intro {
+  width: 96%;
+  margin: 0px 12px 40px 12px;
+}
+
+h2 {
+  font-size: 3em;
+  padding-top: 80px;
+  line-height: 1em;
+  width: 96%;
+  margin-left: 8px;
+  
+ }
+
+h3 u {
+	margin-left: 8px;
+}
+
+.section {
+	width: 96%;
+	margin: 0 8px 0 8px;
+	max-width: 96%;
+	padding-bottom: 0px;
+}
+
+.image {
+	float: left;
+	width: 96%;
+	margin: 0 8px 0 8px;
+	padding-bottom: 20px;
+}
+
+.image.movietime {
+	padding-bottom: 20px;
+
+}
+
+.work-image {
+	width: 100%;
+	height: auto;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.case-study h2 {
+  font-size: 2.5em;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  margin-top: 0px;
+  line-height: 1.1em;
+  width: 90%;
+  margin-left: 8px;
+
+}
+
+.case-study h3 {
+	padding-top: 32px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 90%;
+}
+
+
+.case-study p {
+  width: 90%;
+  font-size: 1.2em;
+  line-height: 1.25em;
+  padding: 0 0 14px 0;
+  margin-left: 8px;
+  margin-right: 8px
+}
+
+
+.case-study img,
+.case-study video {
+	width: 90%;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-bottom: 18px;
+}
+
+.case-study hr {
+	width: 90%;
+	margin-top: 16px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 16px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #E0E0E0;
+}
+
+.case-study hr.bottom {
+	margin-bottom: 48px;
+	margin-top: 8px;
+}
+
+
+.case-study p.caption {
+  font-size: 1em;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 86%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
