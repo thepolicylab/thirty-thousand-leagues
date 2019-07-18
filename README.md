@@ -2,7 +2,7 @@
 layout: page
 ---
 
-Initial website for 30,000 Leagues, a new podcast from The Policy Lab
+Website for _30,000 Leagues,_ a new podcast from The Policy Lab
 ==========================
 
 Forked from the initial website for _The Policy Lab_ at Brown University, July 2019. Static
