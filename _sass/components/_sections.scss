@@ -1,0 +1,66 @@
+// Various sections and utilities
+
+.s {
+
+  // Primary and dark color themes
+  // Using the darker version for accessibility
+  &__dark ,
+  &__primary {
+    a {
+      color: #e89f1a;
+      text-decoration: none;
+
+      &[href^=tel] {
+        color: inherit;
+      }
+
+      @include hover-focus {
+        color: #a4d6e4;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__dark {
+    a {
+      color: #fff;
+      text-decoration: underline;
+
+      &[href^=tel] {
+        color: inherit;
+      }
+
+      @include hover-focus {
+        color: #e89f1a;
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+  &__primary {
+    background: url("/30000-leagues-website/assets/img/wave-texture.png");
+    background-position: left;
+    background-repeat: repeat;
+    color: #fffedf;
+  }
+
+  &__dark {
+    background-color: gray("700");
+    color: $white;
+  }
+
+  // Light themes
+  &__light {
+    background-color: theme-color("light");
+    color: #62371e
+  }
+
+  &__white {
+    background-color: $white;
+  }
+
+  &__gray {
+    background-color: gray("200");
+  }
+}

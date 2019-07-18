@@ -1,44 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
- 		<meta charset="utf-8" />
- 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<title>30,000 Leagues</title>
-  		<meta name="description" content="A New Podcast from The Policy Lab">
-		<link rel="stylesheet" href="/awesome.css" type="text/css" media="screen"/>
-		<link rel="icon" type="image/ico" href="/favicon.ico" />
-		<script>
-  	function play(){
-       var audio = document.getElementById("audio");
-       audio.play();
-                 }
-    </script>
+---
+layout: default
+title: 30,000 Leagues, a new podcast from The Policy Lab
+nav-title: Home
+permalink: /
+body-class: home
+---
 
+      <div class="illus__sky s__primary">
 
-	</head>
+          <main id="content" class="pb-4 mx-auto col-md-12 col-lg-12 text-center" style="min-width:70%">
+            <img style="max-width: 80%; max-height: 600px; text-align: center; cursor: pointer;" src="{{ '/' | relative_url }}assets/img/narwhal-logo.png" alt="Image of The Policy Lab Narwhal wearing headphones" value="PLAY"  onclick="play()">
+            <article class="main__article intro">
+              <header class="intro__header">
+                <h1 class="display-3 text-center" style="line-height: 0.6em">30,000 Leagues</h1>
+              </header>
 
-	<body style="background: #043D66; text-align: center;">
-	<img style="max-width: 80%; max-height: 400px; text-align: center; cursor: pointer;" src="30000-Leagues-Narwhal.png" alt="Image of The Policy Lab Narwhal wearing headphones" value="PLAY"  onclick="play()">
-
-	<h1 style="display: none;">30,000 Leagues</h1>
-
-	<h3>30,000 Leagues</h3>
-	<p>A new podcast from <a href="https://thepolicylab.brown.edu">The Policy Lab</a>.</p>
-	<p>&nbsp;</p>
-	<p>Coming soon! <br/><a href="https://thepolicylab.brown.edu/#anchor-connect">Subscribe for updates</a></p>
-
-
-	<audio id="audio" src="narwhals.mp3">
-	</audio>
-
-
-	</body>
-
-<script>
+              <p class="lead text-center pb-4">A new podcast from <a href="https://thepolicylab.brown.edu">The Policy Lab</a></p>
+            </article>
+          </main>
+      </div>
 
 
 
-</script>
 
 
-</html>
+
+      <section id="episodes" class="u__vspacing s__light">
+        <article class="u__container u__spacing events">
+          <h2 class="h1 text-center" style="color: #62371e">episodes</h2>
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+
+
+
+              <div class="events__description">
+                <h3 class="h5 events__title">
+                  How do you raise a three-year old?
+                </h3>
+                <p class="h6">
+                  Emily Oster, Professor of Economics and International and Public Affairs, Brown University
+                </p>
+                <p class="">
+                  The author of <i><a href="https://www.penguinrandomhouse.com/books/572658/cribsheet-by-emily-oster/9780525559252/">Cribsheet</a></i> and <i><a href="https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/9780143125709/">Expecting Better</a></i> joins us for a conversation about how data can help us become better, more relaxed parents.
+                </p>
+                <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/653157113&color=%23281d1c&inverse=false&auto_play=false&show_user=true"></iframe>
+                </div>
+
+
+              <div class="events__description">
+                <h3 class="h5 events__title">
+                  How can government data be leveraged for public good?
+                </h3>
+                <p class="h6">
+                  Amy O'Hara, Research Professor, Georgetown Massive Data Institute
+                </p>
+                <p class="">
+                  A conversation about the messy intersection of data governance, evidence building, and privacy in pursuit of leveraging our administrative data for the public good.
+                </p>
+                <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/653154167&color=%23281d1c&inverse=false&auto_play=false&show_user=true"></iframe>
+                </div>
+
+
+
+
+
+              </div>
+
+          </div>
+        </article>
+      </section>
+
+
+
+      <section id="whats-next" class="u__vspacing s__primary target-cynosure">
+        <article class="u__container u__spacing connect">
+          <h2 class="h1 text-center">what's next</h2>
+          <p class="lead text-center pb-4">Upcoming episodes include Rhode Island's <a href="https://innogyconsult.com/about-us/partners/macky-mccleary">Macky McCleary</a> on the future of the electric grid, <a href="https://www.amazon.com/Happy-Money-Science-Happier-Spending/dp/1451665075">Mike Norton</a> from Harvard Business School on whether money can buy you happiness, and <a href="https://www.amazon.com/Adcreep-Case-Against-Modern-Marketing/dp/0804795819">Mark Bartholomew</a> from the University of Buffalo on when advertising becomes manipulation.</p>
+
+
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+
+              <h2 class="h6 text-center text-center">Subscribe for updates</h2>
+              <form action="https://brown.us20.list-manage.com/subscribe/post?u=5050b7f10df36f1c41b3743cf&amp;id=cf85e54967" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline mc__form justify-content-center" target="_blank">
+                <div id="mc_embed_signup_scroll" class="form-group mc__wrapper">
+                  <label for="mce-EMAIL" class="mc__label sr-only">Please provide your email address:</label>
+                  <input type="email" name="EMAIL" class="form-control mc__input" id="mce-EMAIL" placeholder="name@email.com" required="" value="">
+                  <div class="mc__nectar" aria-hidden="true"><input type="text" name="b_5050b7f10df36f1c41b3743cf_cf85e54967" tabindex="-1" value=""></div>
+                  <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary mc__button" value="Submit">
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <audio id="audio" src="{{ '/' | relative_url }}assets/narwhals.mp3">
+      </audio>
