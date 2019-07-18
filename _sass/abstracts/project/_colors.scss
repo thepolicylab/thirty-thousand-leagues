@@ -38,7 +38,7 @@ $tint__policy-blue__dark: hsl($policy-blue__h, 78, 36); // #1480a3
 $color__body-fg: $gray-700;
 // Make the body bg the same as the footer bg.
 // This makes the page seamless when the body is shorter than the viewport height.
-$color__body-bg: $gray-700;
+$color__body-bg: #006e90;
 
 $color__link: $tint__policy-blue__dark;
 $color__link-hover: $gray-700;
