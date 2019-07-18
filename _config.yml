@@ -1,8 +1,8 @@
 title: 30,000 Leagues, a new podcast from The Policy Lab
 description: A new podcast from The Policy Lab.
 
-repository: thepolicylab/initial-website.git
-github.pages_hostname: https://thepolicylab.brown.edu
+repository: thepolicylab/30000-leagues.git
+github.pages_hostname: https://thirtythousandleagues.com
 
 markdown: kramdown
 highlighter: rouge
@@ -11,8 +11,8 @@ redcarpet:
 
 baseurl: /
 port: 4060
-url: //thepolicylab.brown.edu
-twitter_handle: ThePolicyTweets
+url: //thirtythousandleagues.com
+twitter_handle: 30000leagues
 
 
 # Define some defaults
