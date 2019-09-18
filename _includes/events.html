@@ -9,8 +9,8 @@
                 {% if event.description %}
                   <p>{{ event.description }}</p>
                 {% endif %}
-                {% if event.soundcloud %}
-                  <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="{{ event.soundcloud }}"></iframe>
+                {% if event.soundcloud_track_id %}
+                  <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="{{ site.constants.soundcloud_url_format | replace: '$TRACKID$', event.soundcloud_track_id }}"></iframe>
                 {% endif %}
               </div>
             {%- endfor -%}

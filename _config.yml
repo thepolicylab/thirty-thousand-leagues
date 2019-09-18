@@ -58,3 +58,6 @@ sass:
 plugins:
 - jekyll-autoprefixer
 - jekyll-github-metadata
+
+constants:
+  soundcloud_url_format: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/$TRACKID$&color=%23281d1c&inverse=false&auto_play=false&show_user=true
